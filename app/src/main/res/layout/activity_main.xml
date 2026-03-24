@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/animeGirlpng"
+        android:layout_width="190dp"
+        android:layout_height="222dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/TVtitle1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/download__1__removebg_preview" />
+
+    <TextView
+        android:id="@+id/TVtitle1"
+        android:layout_width="211dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/atomic_age"
+        android:gravity="center"
+        android:text="AISATSU"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/animeGirlpng"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVtitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="38dp"
+        android:fontFamily="@font/atomic_age"
+        android:text="MESSENJA"
+        android:textColor="#3F51B5"
+        android:textColorLink="#3F51B5"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/animeGirlpng"
+        app:layout_constraintTop_toBottomOf="@+id/TVtitle1" />
+
+    <EditText
+        android:id="@+id/etTimeofDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="165dp"
+        android:ems="10"
+        android:fontFamily="@font/advent_pro_extrabold"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVquestion" />
+
+    <TextView
+        android:id="@+id/TVquestion"
+        android:layout_width="210dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="165dp"
+        android:fontFamily="monospace"
+        android:text="What time of day is it ?"
+        android:textColor="#1D1313"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animeGirlpng" />
+
+    <Button
+        android:id="@+id/btnBoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="sans-serif-medium"
+        android:text="BOOM!"
+        android:textColorHint="#03A9F4"
+        android:textColorLink="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etTimeofDay"
+        app:layout_constraintTop_toBottomOf="@+id/TVtitle2" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="380dp"
+        android:layout_height="259dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="22dp"
+        android:fontFamily="@font/abel"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBoom" />
+
+    <Button
+        android:id="@+id/btnOops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="164dp"
+        android:backgroundTint="#3F51B5"
+        android:text="OOPS!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResult" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="192dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toEndOf="@+id/etTimeofDay"
+        app:layout_constraintTop_toBottomOf="@+id/TVtitle1"
+        app:srcCompat="@drawable/___2024__removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="129dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvResult"
+        app:layout_constraintTop_toBottomOf="@+id/tvResult"
+        app:srcCompat="@drawable/download__2__removebg_preview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
