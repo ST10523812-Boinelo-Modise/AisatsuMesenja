@@ -26,9 +26,7 @@ i did git add then git commit and then git push
 HOW I USED GITHUB ACTIONS
 i had used the simple workflow by Github
 it ran a set of steps like checking if my app's code (Aisatsu Mesenja) works properly and it came out a success
-
-
-
+<img width="1350" height="441" alt="Screenshot 2026-03-28 143401" src="https://github.com/user-attachments/assets/4bb82358-391b-4fa7-89a6-cb953b731927" />
 
 
 
