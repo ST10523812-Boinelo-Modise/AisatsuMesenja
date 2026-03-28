@@ -18,9 +18,31 @@ PICTURE OF CODE FOR AISATSU MESENJA
 
 <img width="1365" height="767" alt="Screenshot 2026-03-28 134442" src="https://github.com/user-attachments/assets/9b6d8b08-c807-4f70-8c8e-a83bbf062ce5" />
 
+UTILISATION OF GITHUB
 I had used Android Studio to create/build my app and that is where i would also make changes and save my code there.
 I used Git bash to push my code onto Github to track my changes too.
 i did git add then git commit and then git push 
+
+HOW I USED GITHUB ACTIONS
+i had used the simple workflow by Github
+it ran a set of steps like checking if my app's code (Aisatsu Mesenja) works properly and it came out a success
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
