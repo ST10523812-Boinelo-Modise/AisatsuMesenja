@@ -8,15 +8,19 @@ I made sure that the app is attention grabbing for the user and has alot of fun 
 
 
 PICTURE OF CODE FOR AISATSU MESENJA
-<img width="1366" height="768" alt="Screenshot 2026-03-28 133650" src="https://github.com/user-attachments/assets/1683b1cc-134b-4a53-9989-3cdf2ffb0a73" />
+<img width="1365" height="756" alt="pag1 new" src="https://github.com/user-attachments/assets/8da5eb60-c4bc-45b3-9431-b32800795c3f" />
+
+<img width="1361" height="757" alt="pag2 new" src="https://github.com/user-attachments/assets/bd398d40-3f83-4503-b8a2-c48bac777244" />
+
+<img width="1362" height="767" alt="pag3 new" src="https://github.com/user-attachments/assets/2d5c7b46-fac8-4dff-bcca-58010381c736" />
+
+<img width="1365" height="767" alt="pag4 new" src="https://github.com/user-attachments/assets/2badb17a-789f-4e58-9bb9-c29693b89fb0" />
 
 
-<img width="1365" height="767" alt="Screenshot 2026-03-28 134239" src="https://github.com/user-attachments/assets/97155228-8b00-4ead-a549-474293997cf3" />
-
-<img width="1365" height="767" alt="Screenshot 2026-03-28 134407" src="https://github.com/user-attachments/assets/4cea4922-0138-451c-b711-ca6b077a7016" />
 
 
-<img width="1365" height="767" alt="Screenshot 2026-03-28 134442" src="https://github.com/user-attachments/assets/9b6d8b08-c807-4f70-8c8e-a83bbf062ce5" />
+
+
 
 UTILISATION OF GITHUB
 I had used Android Studio to create/build my app and that is where i would also make changes and save my code there.
